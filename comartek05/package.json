@@ -1,0 +1,26 @@
+{
+  "name": "comartek05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts 80"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.178",
+    "@types/memoizee": "^0.4.7",
+    "@types/node": "^17.0.18",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.2",
+    "lodash": "^4.17.21",
+    "memoizee": "^0.4.15",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "tslib": "^2.3.1"
+  }
+}
